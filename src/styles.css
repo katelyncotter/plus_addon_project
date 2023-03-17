@@ -14,17 +14,21 @@ h2 {
 }
 
 select {
+  color: white;
+  text-shadow: #3d3e3e;
   display: block;
   width: 100%;
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
+  background: #8db8cd;
+  border: #edf6fb;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: #edf6fb;
   padding: 30px;
   box-shadow: rgba(54, 62, 70, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
