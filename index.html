@@ -12,35 +12,38 @@
   <body>
     <div class="container">
       <h1>🕰️ World Clock 🕰️</h1>
-      <select>
+
+      <select id="city">
         <option value="">Select a City...</option>
-        <option value="">London 🇬🇧</option>
-        <option value="">New York 🇺🇸</option>
-        <option value="">Sydney 🇦🇺</option>
+        <option value="current">My current location</option>
+        <option value="Europe/London">London 🇬🇧</option>
+        <option value="America/New_York">New York 🇺🇸</option>
+        <option value="Australia/Sydney">Sydney 🇦🇺</option>
       </select>
-
-      <div class="city" id="boston">
-        <div>
-          <h2>Boston 🇺🇸</h2>
-          <div class="date">March 15th, 2023</div>
+      <div id="cities">
+        <div class="city" id="boston">
+          <div>
+            <h2>Boston 🇺🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">1:36:15 <small> AM </small></div>
-      </div>
 
-      <div class="city">
-        <div>
-          <h2>Exeter 🇬🇧</h2>
-          <div class="date">March 15th, 2023</div>
+        <div class="city" id="exeter">
+          <div>
+            <h2>Exeter 🇬🇧</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">1:36:15 <small> AM </small></div>
-      </div>
 
-      <div class="city">
-        <div>
-          <h2>Madrid 🇪🇸</h2>
-          <div class="date">March 15th, 2023</div>
+        <div class="city" id="madrid">
+          <div>
+            <h2>Madrid 🇪🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">1:36:15 <small> AM </small></div>
       </div>
     </div>
     <footer>
