@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock 🕓</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.41/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -17,7 +19,7 @@
         <option value="">Sydney 🇦🇺</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="boston">
         <div>
           <h2>Boston 🇺🇸</h2>
           <div class="date">March 15th, 2023</div>
